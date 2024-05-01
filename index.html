@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh" class="mdui-theme-light">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Godot导出助手官网</title>
+    <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"/>
+    <link rel="manifest" href="/pwa/manifest.json">
+    <link rel="icon" href="" type="image/x-icon" title="genouka">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://unpkg.com/mdui@2/mdui.css">
+<script src="https://unpkg.com/mdui@2/mdui.global.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+<mdui-top-app-bar>
+  <mdui-button-icon icon="menu"></mdui-button-icon>
+  <mdui-top-app-bar-title>Godot导出助手官网</mdui-top-app-bar-title>
+</mdui-top-app-bar>
+    <center>
+<mdui-card variant="outlined" style="width: 85%;align:center;margin-top:5%;padding:5%">
+
+      <div class="mdui-prose">
+          <h2><mdui-avatar>G</mdui-avatar>Godot导出助手(Beta)</h2>
+          <h3>带给你前所未有的手机制作游戏导出体验！</h3>
+
+<p><mdui-chip icon="free_breakfast">简洁</mdui-chip>
+<mdui-chip icon="offline_pin">离线</mdui-chip>
+<mdui-chip icon="speed">快速</mdui-chip></p>
+<p>(注意：目前处于实验阶段）</p>
+      <mdui-divider style="margin-top:5px;margin-bottom:5px"></mdui-divider>
+<mdui-button href="https://github.com/Genouka/gdh-website/releases/download/v2.1/gdh_v2.1.signed.apk">下载</mdui-button><mdui-button href="#help">帮助</mdui-button>
+
+      <p>Copyright by GenOuka 2024.</p>
+      
+      </div>
+</mdui-card>
+<a name="help"></a>
+<mdui-card variant="outlined" style="width: 85%;text-align:center;margin-top:5%;padding:5%">
+
+<div class="mdui-prose" style="text-align:left">
+  <center><h1>帮助</h1></center>
+  <h3>1.常见问题</h3>
+  <h4>1.1.Godot导出助手适用于那些设备？</h4>
+  <p>所有Android设备。</p>
+  <h4>1.2.软件离线导出项目的原理是什么？</h4>
+  <p>请参见<a href="https://github.com/Genouka/godotPrebuildApks">这个项目</a>。</p>
+  <h4>1.3.底包是如何生成的？</h4>
+  <p>请参见<a href="https://github.com/Genouka/godotPrebuildApks">这个项目</a>。</p>
+  <h4>1.4.如何使用本应用？</h4>
+  <p>请参见<a href="">这个视频</a>。</p>
+  <h4>1.5.使用本软件安全吗？</h4>
+  <p>安全。对于软件，开发者承诺不会以任何方式窃取你的游戏项目源码，你也可以自行用技术手段（如抓包）进行测试来评估风险。对于底包，生成它们用的代码都是开源的，你甚至也可以自行编译底包。</p>
+  <h3>2.使用指导</h3>
+  <h4>2.1.使用</h4>
+  <ul>
+      <li>1.授予储存权限</li>
+      <li>2.点击你的项目<br>注：软件会检索以下目录是否存在<code>project.godot</code>文件来判断是否是Godot项目：<br><pre>3层深度 /sdcard/Documents/
+3层深度 /sdcard/Download/
+1层深度 /sdcard/</pre></li>
+      <li>3.按照需要修改配置</li>
+      <li>4.选择底包<br>注：第一次使用可以点右上角的<code>使用在线包</code>下载适合项目的Godot版本的预编译底包。如果没有请向<a href="https://github.com/Genouka/godotPrebuildApks">这个项目</a>提issue。</li>
+  </ul>
+</div>
+  </body>
+</mdui-card>
+
+          </center>
+</html>
